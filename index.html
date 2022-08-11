@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Sunnyside agency landing page</title>
+</head>
+<body>
+  <header>
+    <div class="navigation">
+      <div class="logo">
+        <img src="images/logo.svg" alt="">
+      </div>
+      <nav>
+        <ul id="myLinks">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#" class="contact">CONTACT</a></li>
+        </ul>
+      </nav>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()"></a>
+    </div>
+    <h1>WE ARE CREATIVES</h1>
+    <img src="images/icon-arrow-down.svg" alt="">
+  </header>
+  <div class="grid">
+
+    <div class="transform">
+    </div>
+
+    <div class="transform-left">
+      <h2>
+        Transform your brand
+      </h2>
+      
+      <p>
+        We are a full-service creative agency specializing in helping brands grow fast. 
+        Engage your clients through compelling visuals that do most of the marketing for you.
+      </p>
+
+      <a href="" class="yellow">LEARN MORE</a> 
+
+    </div>
+
+    <div class="stand-out">
+    </div>
+
+    <div>
+      <h2>
+        Stand out to the right audience
+      </h2>
+
+      <p>
+        Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places. 
+      </p>
+
+      <a href="" class="red">LEARN MORE</a>
+
+    </div>
+
+    <div class="graphic-design">
+      <h2>
+        Graphic design
+      </h2>
+
+      <p>
+        Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
+      </p>
+
+    </div>
+
+    <div class="photography">
+      <h2>
+        Photography
+      </h2>
+
+      <p>
+        Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
+      </p>
+  
+    </div>  
+  </div>
+
+  <div class="testimonials">
+    
+    <h2>
+      CLIENT TESTIMONIALS
+    </h2>
+    <div class="clients">
+      <div>
+        <img src="images/image-emily.jpg" alt="">
+        
+          <p>
+            We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
+          </p>
+
+          <p class="client">Emily R.</p>
+    
+          <p class="position">
+            Marketing Director
+          </p>
+      </div>
+    
+      <div>
+        <img src="images/image-thomas.jpg" alt="">
+          
+        <p>
+          Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+        </p>
+
+        <p class="client">Thomas S.</p>
+          
+        <p class="position">
+          Chief Operating Officer
+        </p>
+
+      </div>
+
+      <div>
+        <img src="images/image-jennie.jpg" alt="">
+          <p>
+            Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+          </p>
+
+          <p class="client">Jennie F.</p>
+            
+          <p class="position">
+            Business Owner
+          </p>
+    
+      </div>
+    </div>
+  </div>
+
+  <div class="gallery">
+    <div class="milk"></div>
+    <div class="orange"></div>
+    <div class="cone"></div>
+    <div class="sugar"></div>
+  </div>
+  
+  <footer>
+    <div>
+      <img src="images/logo-footer.svg" alt="">
+      <ul>
+        <li><a href="">About</a></li>
+        <li><a href="">Services</a></li>
+        <li><a href="">Projects</a></li>
+      </ul>
+    </div>
+    
+    <div class="links">
+      <a href=""><img class="fb" src="images/icon-facebook.svg" alt=""></a>
+      <a href=""><img class="inst" src="images/icon-instagram.svg" alt=""></a>
+      <a href=""><img class="tw" src="images/icon-twitter.svg" alt=""></a>
+      <a href=""><img class="pint" src="images/icon-pinterest.svg" alt=""></a>
+    </div>
+</footer>
+</div>
+
+<script>
+  function myFunction() {
+    var x = document.querySelector("#myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+  }
+</script>
+
+</body>
+</html>
